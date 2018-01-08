@@ -197,10 +197,11 @@ Content Layout
 	margin-left: 16.666667%;
 }
 
+div.lead {
+	margin-top: 1rem;
+}
+
 @media(min-width: 576px){
-	div.lead {
-		margin-top: 1rem;
-	}
 
 	.col-sm-1 {
 		width: 8.333333%;
@@ -503,6 +504,7 @@ Now
 
 #now-list, #now-list ul {
 	list-style: initial;
+	padding-left: 40px;
 }
 
 #now-list ul {
