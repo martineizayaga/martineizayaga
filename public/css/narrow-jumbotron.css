@@ -1,0 +1,112 @@
+/* Body resets
+---------------------------------------------------------- */
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: "PT Serif", Georgia, "Times New Roman", serif;
+	font-size: 16px;	
+}
+@media (min-width: 48rem) {
+	html {
+		font-size: 21px;
+	}
+}
+
+body {
+	padding: 2rem 1.5rem;
+	line-height: 1.5;
+	color: #555;
+	background-color: #fff;
+}
+
+p {
+	margin: 0 0 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: .8rem;
+	font-weight: bold;
+	line-height: 1.1;
+	color: #333;
+	letter-spacing: -.025rem;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.6rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+p + h1,
+p + h2,
+p + h3,
+ul + h1,
+ul + h2,
+ul + h3,
+ol + h1,
+ol + h2,
+ol + h3 {
+	margin-top: 1.5rem;
+}
+
+/* Scaffolding
+---------------------------------------------- */
+.container {
+	max-width: 32rem;
+	margin: 0 auto;
+}
+
+/* Masthead */
+.masthead {
+	margin-bottom: 0;
+	font-size: 1rem;
+	color: #777;
+}
+
+.masthead:after {
+	display: block;
+	content: "";
+	width: 100px;
+	height: 1px;
+	margin: 3rem auto;
+	background-color: #eee;
+}
+
+.masthead-title a {
+	text-decoration: none;
+	color: #333;
+}
+
+.nav {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+.nav li {
+	display: inline-block;
+}
+.nav li + li {
+	margin-left: .5rem;
+}
+
+@media (min-width: 34rem) {
+	.masthead {
+		padding-top: 1rem;
+		text-align: right;
+	}
+	.masthead-title {
+		float: left;
+	}
+}
