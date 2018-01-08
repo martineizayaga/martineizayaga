@@ -9,7 +9,7 @@
 	        <li>Writing <a href="/blog">Blog posts</a>.</li>
 	        <li>Reading books.</li>
 	        <li>Making ukulele chord progressions.</li>
-	        <li>Taking these classes SP 2018
+	        <li>Taking these classes SP 2018.
 	        	<ul>
 		        	<li itemscope itemtype="http://schema.org/Course"><span itemprop="courseCode">CHEM 2090</span> - <span itemprop="about">Engineering General Chemistry</span></li>
 		        	<li itemscope itemtype="http://schema.org/Course"><span itemprop="courseCode">CS 3410</span> - <span itemprop="about">Computer System Organization and Programming</span></li>
