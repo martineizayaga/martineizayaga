@@ -2,10 +2,9 @@
 	<script type="text/javascript">
 		tinymce.init({
 			selector: 'textarea',
-			plugins: 'link',
-			menubar: false,
+			menubar: true,
 			plugins: [
-	            'image imagetools'
+	            'image imagetools link lists'
 	        ],
 	        image_caption: true,
 	        image_title: true,
